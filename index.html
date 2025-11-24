@@ -53,6 +53,83 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-menu">
+          <div class="container mobile-menu-container">
+            <button class="mobile-menu-close" type="button">
+              <svg class="close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="mobile-nav">
+              <ul class="mobile-nav-list">
+                <li class="mobile-nav-item">
+                  <a class="mobile-nav-link-s" href="">Studio</a>
+                </li>
+                <li class="mobile-nav-item">
+                  <a class="mobile-nav-link" href="">Portfolio</a>
+                </li>
+                <li class="mobile-nav-item">
+                  <a class="mobile-nav-link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="mobile-contacts">
+              <ul class="mobile-contacts-list">
+                <li class="mobile-contacts-item">
+                  <a
+                    class="mobile-contacts-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="mobile-contacts-item">
+                  <a class="mobile-contacts-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <div class="mobile-social">
+              <ul class="mobile-social-list">
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="mobile-social-item">
+                  <a href="" class="mobile-social-link">
+                    <svg class="mobile-svg" width="24" height="24">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <!--endregion header-->
@@ -67,7 +144,7 @@
       <!--#endregion hero-->
       <!--#region benefits-->
 
-      <section class="section-benefits">
+      <section class="section-benefits hidden">
         <div class="container benefits-container">
           <h2 class="title-benefits visually-hidden">Our advantages</h2>
           <ul class="list-benefits">
@@ -125,7 +202,7 @@
       </section>
       <!--#endregion benefits-->
       <!--#region team-->
-      <section class="section-team">
+      <section class="section-team hidden">
         <div class="container team-container">
           <h2 class="title-team">Our Team</h2>
           <ul class="list-team">
@@ -307,7 +384,7 @@
       </section>
       <!--#endregion team-->
       <!--#region portfolio-->
-      <section class="section-portfolio">
+      <section class="section-portfolio hidden">
         <div class="container portfolio-container">
           <h2 class="title-section-portfolio">Our Portfolio</h2>
           <ul class="list-section-portfolio">
@@ -443,7 +520,7 @@
       <!--#endregion portfolio-->
     </main>
     <!--#region footer-->
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-social">
         <div class="container-footer">
           <a class="logo-footer" href="./index.html"
@@ -515,7 +592,7 @@
     </footer>
     <!--#endregion footer-->
     <!--#region modal-->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button class="close-button" type="button">
           <svg class="close" width="8" height="8">
