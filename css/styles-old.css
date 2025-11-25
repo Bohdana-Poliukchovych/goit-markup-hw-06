@@ -228,7 +228,7 @@ a {
 }
 
 .list-benefits-item {
-    display: block;;
+    display: block;
     width: 264px;
     width: calc((100% - 72px) / 4);  
 }
@@ -278,7 +278,7 @@ a {
 .title-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
