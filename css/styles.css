@@ -301,6 +301,7 @@ button {
 
 .mobile-contacts {
     margin-bottom: auto;
+    font-style: normal;
 }
 
 .mobile-contacts-list {
@@ -344,7 +345,7 @@ button {
     background-color: #4d5ae5;
 }
 
-mobile-social-link {
+.mobile-social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -573,6 +574,10 @@ mobile-social-link {
         padding: 24px 100px;
         margin-bottom: 8px;
     }
+
+    .list-benefits-subtitle {
+        font-size: 20px;
+    }
 }
 
 /* #endregion benefits */
@@ -684,7 +689,12 @@ mobile-social-link {
 
     .list-team-item {
         width: calc((100% - 24px) / 2);
+        max-width: 264px;
     }
+
+   .list-team {
+    gap: 64px 24px;
+   }
 }
 
 @media screen and (min-width: 1158px) {
@@ -878,8 +888,6 @@ display: none;
     }
 }
 /* #endregion portfolio */
-
-
 
 /* #region footer */
 
